@@ -7,10 +7,14 @@ lineNumbers: false
 info: |
   ## MBS Lessons
 drawings:
-  persist: false
+  persist: true
 transition: slide-left
 title: Welcome to the Master Bible Study, a study of the Master.
 mdc: true
+---
+# Lesson 1: Intro to Reasoning
+---
+src: ./pages/intro-to-reasoning.md
 ---
 
 # Lesson 2: Spiritual and Physical
