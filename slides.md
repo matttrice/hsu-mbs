@@ -23,6 +23,7 @@ src: ./pages/intro-to-reasoning.md
 
 # Lesson 2: Spiritual and Physical
 
+---
 
 ---
 src: ./pages/physical-spiritual.md
