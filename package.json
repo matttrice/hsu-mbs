@@ -10,8 +10,5 @@
     "@slidev/cli": "^0.43.15",
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.3"
-  },
-  "devDependencies": {
-    "@iconify-json/game-icons": "^1.1.3"
   }
 }
