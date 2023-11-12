@@ -1,31 +1,35 @@
 ---
 theme: seriph
-background: blue
+background: black
 class: text-center
-highlighter: shiki
 lineNumbers: false
 info: |
   ## MBS Lessons
 drawings:
   persist: true
 transition: slide-left
-title: Welcome to the Master Bible Study, a study of the Master.
+title: A study of the Master.
 mdc: true
+routeAlias: intro
 ---
 
 # Lesson 1: Intro to Reasoning
 
 ---
-src: ./pages/intro-to-reasoning.md
+routeAlias: intro-reasoning
+src: ./pages/intro-reasoning.md
 ---
 
----
-
-# Lesson 2: Spiritual and Physical
-
----
+# Lesson 2: Spiritual & Physical
 
 ---
 src: ./pages/physical-spiritual.md
 ---
 
+# Scirptures
+
+---
+src: ./pages/scrolls.md
+hide: false
+routeAlias: scrolls
+---

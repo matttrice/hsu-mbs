@@ -45,7 +45,7 @@ const props = defineProps({
     </div>
 
     <!--------------middle------------------->
-    <div :class='props.class'>
+    <div :class='props.class' class='center-bleed' >
       <slot name='middle' />
     </div>
 
@@ -74,5 +74,12 @@ const props = defineProps({
 
 .sidebox {
   @apply rounded-lg p-2 m-t-3 bg-white text-base w-1/2 text-blue-700;
+}
+</style>
+
+<style>
+.center-bleed {
+    z-index: 10;
+    /* Additional styling as required */
 }
 </style>

@@ -1,6 +1,5 @@
 ---
 class: text-center
-highlighter: shiki
 lineNumbers: false
 info: |
   ## MBS Lesson 2
@@ -8,6 +7,7 @@ drawings:
   persist: true
 transition: slide-down
 css: unocss
+routeAlias: physical-spiritual
 title: Physical & Spiritual
 layout: physical-spiritual
 ---
@@ -70,10 +70,10 @@ Genesis 1:1
     Energy
 </div>
 </div>
+
 ::middle::
-<div v-click='29' mt='80' text='6xl black bold'>
-  =
-</div>
+
+<div v-click='29' text="5xl" color="black" mt="78" ml="-7" bg="white" h="3rem" w="4rem"><subway:equal /> </div>
 
 ::physical::
 
@@ -118,8 +118,8 @@ Genesis 1:1
     class='italic font-light text-base align-text-top'>
     Evidence of unseen</span>
 </div>
-<div v-click='5'>Colossians 1:15-15</div>
-<div v-click='7'>2 Corinthians 4:17</div>
+<Link to="scrolls/Colossians1:15-16" title="Colossians 1:15-16" v-click="5"/>
+<Link to="2Corinthians4:17" title="2 Corinthians 4:17" v-click="7"/>
 <div v-click='16' 
   class='italic font-light text-base align-text-top m-t-5'>
   Is it safe to put a paperclip in a light socket? 
