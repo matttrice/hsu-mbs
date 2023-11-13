@@ -12,11 +12,12 @@ layout: physical-spiritual
 
 Genesis 1:1
 
-<div v-click='2' class='text-xs group/ii'>
+<div v-click='2' class='text-xs'>
   “In the beginning God created the 
-  <span class='group/ii'>HEAVENS</span> and the <span>EARTH</span>...”</div>
+  <span>HEAVENS</span> and the <span>EARTH</span>...”</div>
+  
   <div v-click='3' class='mbs-col-box-l'>
-    <game-icons:archive-research class="text-2xl -mb-2" /> 
+    <game-icons:archive-research class="mbs-box text-2xl -mb-2" /> 
       Internal Interpretation
     </div>
   <div v-click='14' class='m-t-5'>
@@ -49,59 +50,68 @@ Genesis 1:1
   Eternal
 </div>
 
-<div v-click='17' bg='white' class='brick-head'>
-<div v-click='23'> Causes</div>
-<div v-click='22'>
+<div v-click='17' bg='white'>
+<div v-click='23' class='mbs-col-head'> Causes</div>
+<div v-click='22' class='mbs-col-item'>
   Gravity Force
 </div>
-<div v-click='20'>
+<div v-click='20' class='mbs-col-item'>
   Wind Force
 </div>
-<div v-click='19'>
+<div v-click='19' class='mbs-col-item'>
   Electricity Force
 </div>
 </div>
-<div v-click='28' bg='white' class='brick-head'>
-<div v-click='28' z-3>
+<div v-click='28' bg='white'>
+<div v-click='28' z-3 class='mbs-col-head'>
     Energy
 </div>
 </div>
 
 ::middle::
 <div position="absolute" w="5px" h="100%" bg="black">
-<div v-click='29' z-3 text="5xl" color="black" mt="78" ml="-7" bg="white" h="3rem" w="4rem"><subway:equal /> </div>
-<div v-click="30" z-3 color="black" text="5xl" ml="-13"> E=mc<sup>2</sup></div>
+  <div v-click='29' 
+      z-10 text="5xl" 
+      color="black" 
+      mt="78" 
+      ml="-7" 
+      bg="white" 
+      h="3rem" 
+      w="4rem">
+      <subway:equal /> 
+   </div>
+  <div v-click="30" z-3 color="black" text="5xl" ml="-13"> E=mc<sup>2</sup></div>
 </div>
 ::physical::
 
-<div v-click='4'>
+<div v-click='4' class="mbs-col-head">
   Earth
 </div>
-<div v-click='6'>
+<div v-click='6' class="mbs-col-item">
   Visible
 </div>
-<div v-click='8'>
+<div v-click='8' class="mbs-col-item">
   Seen
 </div>
-<div v-click='9'>
+<div v-click='9' class="mbs-col-item">
   Temporal
 </div>
 
-<div v-click='17' bg='white' class='brick-head'>
-<div v-click='24'> 
+<div v-click='17' bg='white'>
+<div v-click='24' class='mbs-col-head'> 
   Effects 
 </div>
-<div v-click='21'>
+<div v-click='21' class='mbs-col-item'>
   Objects Fall
 </div>
-<div v-click='19'>
+<div v-click='19' class='mbs-col-item'>
   Trees Move
 </div>
-  <div v-click='17'>
+  <div v-click='17' class='mbs-col-item'>
     Motors Spin
   </div>
 </div>
-<div v-click='26' bg='white' class='brick-head'>
+<div v-click='26' bg='white' class='mbs-col-head'>
 <div v-click='26' z-3>
   Matter
 </div>
@@ -121,7 +131,7 @@ Genesis 1:1
   class='italic font-light text-base align-text-top m-t-5'>
   Is it safe to put a paperclip in a light socket? 
 </div>
-<div v-click='25' class='sidebox -m-l-5 m-t-19'><i>What</i> is effected?</div>
+<div v-click='25' class='mbs-box -m-l-5 m-t-19'><i>What</i> is effected?</div>
 <arrow 
   v-click='25' v-motion-slide-left v-if='$slidev.nav.clicks >= 25' 
   class='-m-l-155' z='2' x1='625' y1='320' x2='580' y2='330' 

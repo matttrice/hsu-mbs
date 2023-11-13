@@ -38,21 +38,17 @@ const props = defineProps({
     </div>
 
     <!--------------spiritual------------------->
-    <div class='bg-sky-400
-                      text-blue-800
-                      brick-head' :class='props.class'>
+    <div class='bg-spirit txt-spirit' :class='props.class'>
       <slot name='spiritual' />
     </div>
 
     <!--------------middle------------------->
-    <div :class='props.class' class='center-bleed' >
+    <div :class='props.class' >
       <slot name='middle' />
     </div>
 
     <!--------------physical------------------->
-    <div class='bg-gray-400
-                      text-zinc-800
-                      brick-head' :class='props.class'>
+    <div class='bg-carnal txt-carnal' :class='props.class'>
       <slot name='physical' />
     </div>
 
