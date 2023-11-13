@@ -26,13 +26,15 @@ Genesis 1:1
         If you can"t see it, how can you trust it exists?
     </span>
 </div>
-<div v-click="28" class="sidebox m-l-33 m-t-11">Forms of what?</div>
+<div v-click="28" class="sidebox m-l-33 m-t-11">Forms of <i>what</i>?</div>
 <arrow v-click="28" 
     z-2 
     x1="229" y1="300" 
     x2="280" y2="300" 
     color="black" width="3"
     arrowSize="2" />
+ 
+ <Link to="1Corinthians15:40-45" class="mbs-box" v-click="37">1 Corinthians<br/>15:40-45</Link>
 
 ::spiritual::
 
@@ -67,27 +69,40 @@ Genesis 1:1
     <div v-click="29" class="mbs-col-head"  b-b-0>
         Energy
     </div>
+    <div v-click="35" class="mbs-col-head" b-b-0 mt-11>
+        Spiritual
+    </div>
 </div>
+<div v-click="38" class="mbs-col-item -mt-1">imperishable</div>
+<div v-click="39" class="mbs-col-item -mt-1">glory</div>
+<div v-click="41" class="mbs-col-item -mt-1">honor</div>
+<div v-click="41" class="mbs-col-item -mt-1">eternal body</div>
+<div v-click="42" class="mbs-col-item -mt-1">2st Adam = Heaven</div>
 
 ::middle::
 <div bg-white w-5 ml="-2" h="7.5rem" mt="70" v-click="30" z-11 position="relative">
   <div v-click="30" 
       text="4xl" 
       color="black"
-      position="relative"
-      h="2.75rem" 
-      w="4rem"
+      position="relative" 
+      w-15
       ml="-5"
       >
       <fa-solid:equals/> 
    </div>
-  <div v-click="31" color="black" text="5xl" ml="-45" w="100">
-    <span class="txt-spirit">E</span>=m 
-  <span v-click="33" ml="-3"> 
-    <span class="txt-spirit">c<sup>2</sup></span>
-   </span>
-     </div>
+  <div v-click="31" color="black" text-5xl ml="-8" mt="-2">
+    <span class="txt-spirit">E</span>=m<span v-click="33" class="txt-spirit">c<sup>2</sup></span>
   </div>
+    <div v-click="36" 
+      text="4xl" 
+      color="black"
+      position="relative" 
+      w-15
+      ml="-5"
+      >
+      <fa-solid:equals/> 
+   </div>
+</div>
 ::physical::
 <div v-click="4" class="mbs-col-head">
     Earth
@@ -120,7 +135,16 @@ Genesis 1:1
     <div v-click="27" class="mbs-col-head" b-b-0>
         Matter
     </div>
+    <div v-click="34" class="mbs-col-head" b-b-0 mt-11>
+        Physical
+    </div>
 </div>
+<div v-click="38" class="mbs-col-item -mt-1">perishable</div>
+<div v-click="39" class="mbs-col-item -mt-1">dishonor</div>
+<div v-click="40" class="mbs-col-item -mt-1">weakness</div>
+<div v-click="41" class="mbs-col-item -mt-1">physical body</div>
+<div v-click="42" class="mbs-col-item -mt-1">1st Adam = Earth</div>
+
 
 ::right::
 <div v-click="12">
@@ -153,8 +177,8 @@ Genesis 1:1
 <arrow v-click="32" 
     v-motion-slide-left 
     ml="-155" z="2" 
-    x1="625" y1="320"
-    x2="480" y2="350" 
+    x1="625" y1="330"
+    x2="480" y2="345" 
     color="black" width="3" arrowSize="2" />
 
 <!--
