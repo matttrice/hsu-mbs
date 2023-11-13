@@ -1,12 +1,10 @@
 ---
-highlighter: shiki
 background-image: './images/scroll.jpg'
-lineNumbers: false
-routeAlias: intro-reasoning
+routeAlias: intro
 info: |
   ## MBS Lesson 1
-title: Intro to Reasoning
-layout: default
+title: Intro
+layout: fact
 ---
 
 “When one learns to read, one learns a peculiar way of behaving of which physical immobility is only one feature. Self restraint is a challenge not only to the body but to the mind as well. Sentences paragraphs and pages unfold slowly, in sequence and according to a logic that is far from intuitive...  the literate person must learn to be reflective and analytical, patient and assertive always poised, after due consideration to say no to a text."
@@ -14,7 +12,10 @@ layout: default
 Neil Postman – The Disappearance of Childhood
 
 ---
-
+title: Bible Layout
+routeAlias: intro-bible-layout
+layout: fact
+---
 <div>Old Testament: 39 books</div>
 <div v-click='2'>New Testament: 23 books
 </div>

@@ -2,21 +2,17 @@
 theme: seriph
 background: black
 class: text-center
-lineNumbers: false
 info: |
   ## MBS Lessons
-drawings:
-  persist: true
 transition: slide-left
-title: A study of the Master.
-mdc: true
-routeAlias: intro
+title: A study of the Master
+routeAlias: home
+css: unocss
 ---
 
 # Lesson 1: Intro to Reasoning
 
 ---
-routeAlias: intro-reasoning
 src: ./pages/intro-reasoning.md
 ---
 
@@ -30,6 +26,4 @@ src: ./pages/physical-spiritual.md
 
 ---
 src: ./pages/scrolls.md
-hide: false
-routeAlias: scrolls
 ---

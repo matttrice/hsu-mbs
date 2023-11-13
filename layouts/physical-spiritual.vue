@@ -62,24 +62,3 @@ const props = defineProps({
     </div>
   </div>
 </template>
-
-<style>
-.brick-head {
-  @apply text-3xl border-black [&>*:first-child]:text-5xl [&>*:first-child]:border-b-2 [&>*:first-child]:border-black [&>*:first-child]:font-bold
-}
-
-.brick {
-  @apply bg-white p-b-28 p-t-1 absolute w-full m-b-15 z-1
-}
-
-.sidebox {
-  @apply rounded-lg p-2 m-t-3 bg-white text-base w-1/2 text-blue-700;
-}
-</style>
-
-<style>
-.center-bleed {
-    z-index: 10;
-    /* Additional styling as required */
-}
-</style>

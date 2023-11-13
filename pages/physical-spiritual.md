@@ -1,12 +1,8 @@
 ---
 class: text-center
-lineNumbers: false
 info: |
   ## MBS Lesson 2
-drawings:
-  persist: true
 transition: slide-down
-css: unocss
 routeAlias: physical-spiritual
 title: Physical & Spiritual
 layout: physical-spiritual
@@ -19,7 +15,7 @@ Genesis 1:1
 <div v-click='2' class='text-xs group/ii'>
   “In the beginning God created the 
   <span class='group/ii'>HEAVENS</span> and the <span>EARTH</span>...”</div>
-  <div v-click='3' class='sidebox'>
+  <div v-click='3' class='mbs-col-box-l'>
     <game-icons:archive-research class="text-2xl -mb-2" /> 
       Internal Interpretation
     </div>
@@ -40,16 +36,16 @@ Genesis 1:1
 
 ::spiritual::
 
-<div v-click='4'>
+<div v-click='4' class="mbs-col-head">
   Heavens
 </div>
-<div v-click='6'>
+<div v-click='6' class="mbs-col-item">
   Invisible
 </div>
-<div v-click='10'>
+<div v-click='10' class="mbs-col-item">
   Unseen
 </div>
-<div v-click='11'>
+<div v-click='11' class="mbs-col-item">
   Eternal
 </div>
 
@@ -66,15 +62,16 @@ Genesis 1:1
 </div>
 </div>
 <div v-click='28' bg='white' class='brick-head'>
-<div v-click='28'>
+<div v-click='28' z-3>
     Energy
 </div>
 </div>
 
 ::middle::
-
-<div v-click='29' text="5xl" color="black" mt="78" ml="-7" bg="white" h="3rem" w="4rem"><subway:equal /> </div>
-
+<div position="absolute" w="5px" h="100%" bg="black">
+<div v-click='29' z-3 text="5xl" color="black" mt="78" ml="-7" bg="white" h="3rem" w="4rem"><subway:equal /> </div>
+<div v-click="30" z-3 color="black" text="5xl" ml="-13"> E=mc<sup>2</sup></div>
+</div>
 ::physical::
 
 <div v-click='4'>
@@ -105,7 +102,7 @@ Genesis 1:1
   </div>
 </div>
 <div v-click='26' bg='white' class='brick-head'>
-<div v-click='26'>
+<div v-click='26' z-3>
   Matter
 </div>
 </div>
@@ -134,26 +131,4 @@ Genesis 1:1
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes
--->
-
----
-
-# End of Lesson
-
-<br>
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
 -->

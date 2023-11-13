@@ -4,7 +4,8 @@ lineNumbers: false
 info: |
   ## Scripture 
 title: Scriptures
-layout: default
+layout: fact
+hide: true
 ---
 
 Scripture
@@ -22,4 +23,14 @@ routeAlias: scrolls/2Corinthians4:17
 ---
 
 # 2 Corinthians 4:17
+
 For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all.
+
+---
+routeAlias: ./scrolls/Hebrews11:1
+---
+
+# Hebrews 11:1 
+
+Now faith is the assurance of things hoped for, the conviction of things not seen.
+<sub>NASB1995</sub>
