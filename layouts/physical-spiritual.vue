@@ -43,7 +43,7 @@ const props = defineProps({
     </div>
 
     <!--------------middle------------------->
-    <div :class='props.class' >
+    <div :class='props.class' z-10 p='relative'>
       <slot name='middle' />
     </div>
 
