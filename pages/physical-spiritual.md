@@ -27,7 +27,11 @@ Genesis 1:1
     </span>
 </div>
 <div v-click="28" class="sidebox m-l-33 m-t-11">Forms of what?</div>
-<arrow v-click="28" v-if="$slidev.nav.clicks >= 27" z="2" x1="229" y1="300" x2="280" y2="332" color="black" width="3"
+<arrow v-click="28" 
+    z-2 
+    x1="229" y1="300" 
+    x2="280" y2="300" 
+    color="black" width="3"
     arrowSize="2" />
 
 ::spiritual::
@@ -66,7 +70,7 @@ Genesis 1:1
 </div>
 
 ::middle::
-<div bg-white w-5 ml="-2" h="8rem" mt="70" v-click="29" z-11 position="relative">
+<div bg-white w-5 ml="-2" h="7.5rem" mt="70" v-click="30" z-11 position="relative">
   <div v-click="30" 
       text="4xl" 
       color="black"
@@ -79,7 +83,7 @@ Genesis 1:1
    </div>
   <div v-click="31" color="black" text="5xl" ml="-45" w="100">
     <span class="txt-spirit">E</span>=m 
-  <span v-click="32" ml="-3"> 
+  <span v-click="33" ml="-3"> 
     <span class="txt-spirit">c<sup>2</sup></span>
    </span>
      </div>
@@ -129,10 +133,29 @@ Genesis 1:1
 <div v-click="16" class="italic font-light text-base align-text-top m-t-5">
     Is it safe to put a paperclip in a light socket?
 </div>
-<div v-click="26" class="mbs-box -m-l-5 m-t-19"><i>What</i> is effected?</div>
-<arrow v-click="26" v-motion-slide-left 
-v-if="$slidev.nav.clicks >= 25" class="-m-l-155" z="2" x1="625" y1="320"
-    x2="580" y2="330" color="black" width="3" arrowSize="2" />
+<div v-click="26"  
+     ml="-5" 
+     mt="19">
+        <i>What</i> is effected?
+     </div>
+<arrow v-click="26" 
+    v-motion-slide-left 
+    ml="-158" z="2" 
+    x1="655"  y1="300"
+    x2="590" y2="300" 
+    color="black" width="3" 
+    arrowSize="2" />
+<div v-click="32" 
+     ml="-5" 
+     class="mbs-box">
+        What provides stability?
+     </div>
+<arrow v-click="32" 
+    v-motion-slide-left 
+    ml="-155" z="2" 
+    x1="625" y1="320"
+    x2="480" y2="350" 
+    color="black" width="3" arrowSize="2" />
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes
