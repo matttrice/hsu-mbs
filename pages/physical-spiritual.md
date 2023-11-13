@@ -77,10 +77,13 @@ Genesis 1:1
       >
       <fa-solid:equals/> 
    </div>
-  <div v-click="31" color="black" text="5xl" ml="-17" w="55">
-  <span class="txt-spirit">E</span>=m <span class="txt-spirit">c<sup>2</sup></span>
+  <div v-click="31" color="black" text="5xl" ml="-45" w="100">
+    <span class="txt-spirit">E</span>=m 
+  <span v-click="32" ml="-3"> 
+    <span class="txt-spirit">c<sup>2</sup></span>
+   </span>
+     </div>
   </div>
-</div>
 ::physical::
 <div v-click="4" class="mbs-col-head">
     Earth
