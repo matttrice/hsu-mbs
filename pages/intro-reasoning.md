@@ -13,29 +13,130 @@ Neil Postman – The Disappearance of Childhood
 
 ---
 title: Bible Layout
-routeAlias: intro-bible-layout
-layout: fact
+background: bg-slate-500
+routeAlias: bible-layout
+layout: default
 ---
-<div>Old Testament: 39 books</div>
-<div v-click='2'>New Testament: 23 books
+
+<div text-2xl class="-mt-8">Old Testament: 39 books</div>
+
+<div class='grid grid-cols-[auto_auto_auto_auto_auto]' text-left>
+  <div v-click='2'>
+   <div underline> Law<sup>(5)</sup> </div>
+   <div text-sm> 
+   <div> Genesis </div>
+   <div> Exodus </div>
+   <div> Leviticus </div>
+   <div> Numbers </div>
+   <div> Deuteronomy </div> 
+   </div>
+  </div>
+  <div v-click='3'>
+  <div underline> History<sup>(12)</sup> </div>
+  <div text-sm> 
+    <div> Joshua </div>
+    <div> Judges </div>
+    <div> Ruth </div>
+    <div> 1 & 2 Samuel </div>
+    <div> 1 & 2 Kings </div>
+    <div> 1 & 2 Chronicles </div>
+    <div> Ezra </div>
+    <div> Nehemiah </div>
+    <div> Esther </div>
+    </div>
+  </div>
+  <div v-click='4'>
+   <div underline> Poetry<sup>(5)</sup> </div>
+   <div text-sm> 
+    <div> Job </div>
+    <div> Psalms </div>
+    <div> Proverbs </div>
+    <div> Ecclesiastes </div>
+    <div> Song of Solomon </div>
+  </div>
+  </div>
+  <div v-click='5'>
+    <div underline> MajorProphets<sup>(5)</sup> </div>
+    <div text-sm> 
+    <div> Isaiah </div>
+    <div> Jeremiah </div>
+    <div> Lamentations </div>
+    <div> Ezekiel </div>
+    <div> Daniel </div>
+    </div>
+  </div>
+  <div v-click='6'>
+    <div underline> MinorProphets<sup>(12)</sup> </div>
+    <div text-sm> 
+    <div> Hosea </div>
+    <div> Joel </div>
+    <div> Amos </div>
+    <div> Obadiah </div>
+    <div> Jonah </div>
+    <div> Micah </div>
+    <div> Nahum </div>
+    <div> Habakkuk </div>
+    <div> Zephaniah </div>
+    <div> Haggai </div>
+    <div> Zechariah </div>
+    <div> Malachi </div>
+  </div>
+  </div>
 </div>
-<div v-click='3'>Law(5)
-</div>
-<div v-click='4'>History(12)
-</div>
-<div v-click='5'>Poetry(5)
-</div>
-<div v-click='6'>MajorProphets(5)
-</div>
-<div v-click='7'>MinorProphets(12)
-</div>
-<div v-click='8'>Gospel(4)
-</div>
-<div v-click='9'>ChurchHistory(1)
-</div>
-<div v-click='10'>Prophecy(1)
-</div>
-<div v-click='11'>Letters toChurches(9)
-</div>
-<div v-click='12'>Letters toIndividuals(12)
-</div>
+
+ ----
+
+<div v-click='7' text-2xl w-full>New Testament: 23 books</div>
+
+<div class='grid grid-cols-[auto_auto_auto_auto_auto]' text-left>
+    <div v-click='8'>
+      <div underline>Gospel<sup>(4)</sup></div>
+        <div text-sm> 
+            <div>Matthew</div>
+            <div>Mark</div>
+            <div>Luke</div>
+            <div>John</div>
+        </div>
+      </div>
+  <div v-click='9'>
+    <div underline>ChurchHistory<sup>(1)</sup></div>
+        <div text-sm> 
+        <div>Acts</div>
+    </div>
+  </div>
+  <div v-click='10'>
+  <div underline>Prophecy<sup>(1)</sup></div>
+        <div text-sm> 
+            <div>Revelation</div>
+        </div>
+  </div>
+  <div v-click='11'>
+  <div underline>Letters to Churches<sup>(9)</sup></div>
+    <div text-sm>
+      <div>Romans</div>
+      <div>1 & 2 Corinthians</div>
+      <div>Galatians</div>
+      <div>Ephesians</div>
+      <div>Philippians</div>
+      <div>Colossians</div>
+      <div>1 & 2 Thessalonians</div>
+  </div>
+  </div>
+    <div v-click='12'>
+    <div underline>Letters to Individuals<sup>(12)</sup></div>
+      <div text-sm>
+       <div>1 & 2 Timothy</div>
+       <div>Titus</div>
+       <div>Philemon</div>
+       <div>Hebrews</div>
+       <div>James</div>
+       <div>1 & 2 Peter</div>
+       <div>1, 2 & 3 John</div>
+       <div>Jude</div>
+      </div>
+      </div>
+  </div>
+  <div v-click='13'>How does theAuthor think?</div>
+
+  --
+  # Methods of Reason
