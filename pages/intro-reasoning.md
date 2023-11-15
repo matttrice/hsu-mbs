@@ -21,8 +21,8 @@ layout: default
 <div text-2xl class="-mt-8">Old Testament: 39 books</div>
 
 <div class='grid grid-cols-[auto_auto_auto_auto_auto]' text-left>
-  <div v-click='2'>
-   <div underline> Law<sup>(5)</sup> </div>
+  <div v-click='1'>
+   <div underline> Law <sup>(5)</sup> </div>
    <div text-sm> 
    <div> Genesis </div>
    <div> Exodus </div>
@@ -31,8 +31,8 @@ layout: default
    <div> Deuteronomy </div> 
    </div>
   </div>
-  <div v-click='3'>
-  <div underline> History<sup>(12)</sup> </div>
+  <div v-click='2'>
+  <div underline> History <sup>(12)</sup> </div>
   <div text-sm> 
     <div> Joshua </div>
     <div> Judges </div>
@@ -45,8 +45,8 @@ layout: default
     <div> Esther </div>
     </div>
   </div>
-  <div v-click='4'>
-   <div underline> Poetry<sup>(5)</sup> </div>
+  <div v-click='3'>
+   <div underline> Poetry <sup>(5)</sup> </div>
    <div text-sm> 
     <div> Job </div>
     <div> Psalms </div>
@@ -55,8 +55,8 @@ layout: default
     <div> Song of Solomon </div>
   </div>
   </div>
-  <div v-click='5'>
-    <div underline> MajorProphets<sup>(5)</sup> </div>
+  <div v-click='4'>
+    <div underline> MajorProphets <sup>(5)</sup> </div>
     <div text-sm> 
     <div> Isaiah </div>
     <div> Jeremiah </div>
@@ -65,8 +65,8 @@ layout: default
     <div> Daniel </div>
     </div>
   </div>
-  <div v-click='6'>
-    <div underline> MinorProphets<sup>(12)</sup> </div>
+  <div v-click='5'>
+    <div underline> MinorProphets <sup>(12)</sup> </div>
     <div text-sm> 
     <div> Hosea </div>
     <div> Joel </div>
@@ -86,11 +86,11 @@ layout: default
 
  ----
 
-<div v-click='7' text-2xl w-full>New Testament: 23 books</div>
+<div v-click='6' text-2xl>New Testament: 23 books</div>
 
 <div class='grid grid-cols-[auto_auto_auto_auto_auto]' text-left>
-    <div v-click='8'>
-      <div underline>Gospel<sup>(4)</sup></div>
+    <div v-click='7'>
+      <div underline>Gospel <sup>(4)</sup></div>
         <div text-sm> 
             <div>Matthew</div>
             <div>Mark</div>
@@ -98,20 +98,20 @@ layout: default
             <div>John</div>
         </div>
       </div>
-  <div v-click='9'>
-    <div underline>ChurchHistory<sup>(1)</sup></div>
+  <div v-click='8'>
+    <div underline>ChurchHistory <sup>(1)</sup></div>
         <div text-sm> 
         <div>Acts</div>
     </div>
   </div>
-  <div v-click='10'>
-  <div underline>Prophecy<sup>(1)</sup></div>
+  <div v-click='9'>
+  <div underline>Prophecy <sup>(1)</sup></div>
         <div text-sm> 
             <div>Revelation</div>
         </div>
   </div>
-  <div v-click='11'>
-  <div underline>Letters to Churches<sup>(9)</sup></div>
+  <div v-click='10'>
+  <div underline>Letters to Churches <sup>(9)</sup></div>
     <div text-sm>
       <div>Romans</div>
       <div>1 & 2 Corinthians</div>
@@ -122,8 +122,8 @@ layout: default
       <div>1 & 2 Thessalonians</div>
   </div>
   </div>
-    <div v-click='12'>
-    <div underline>Letters to Individuals<sup>(12)</sup></div>
+    <div v-click='11'>
+    <div underline>Letters to Individuals <sup>(12)</sup></div>
       <div text-sm>
        <div>1 & 2 Timothy</div>
        <div>Titus</div>
@@ -136,7 +136,7 @@ layout: default
       </div>
       </div>
   </div>
-  <div v-click='13'>How does theAuthor think?</div>
+  <div v-click='12'>How does theAuthor think?</div>
 
   --
   # Methods of Reason
