@@ -138,5 +138,45 @@ layout: default
   </div>
   <div v-click='12'>How does theAuthor think?</div>
 
-  --
-  # Methods of Reason
+---
+title: Methods of Reason
+background: bg-slate-300
+routeAlias: bible-reasoning
+layout: full
+---
+  
+# Methods of Reason
+  
+<div class="grid grid-cols-[1fr_1fr]">
+    <div v-click="1" class="txt-carnal bg-carnal mbs-col-head txt-4xl mx-auto"> Inductive</div>
+    <div v-click="2" class="txt-spirit bg-spirit mbs-col-head txt-4xl">Deductive</div> 
+    <div class="grid grid-cols-[1fr_1fr]">
+        <div v-click="3" class="txt-carnal bg-carnal text-2xl" height="100px"> 
+            <div class="txt-3xl">Small</div>
+            <div>Specific</div>
+            <svg height="55px">
+                <circle cx="150" cy="30" r="10" stroke="black" stroke-width="3" fill="black" />
+            </svg>
+      </div>
+        <div v-click="4" class="txt-carnal bg-carnal text-2xl">
+            <div>Big</div>
+            <div>General</div>
+            <svg width="500" height="500">
+                <circle cx="400" cy="40" r="80" stroke="black" stroke-width="3" fill="black" />
+                <line x1="20" y1="30" x2="400" y2="30" stroke="black" stroke-width="25" />
+            </svg>
+        </div>
+    </div>
+    <div class="grid grid-cols-[1fr_1fr]">
+        <div v-click="5" class="txt-spirit bg-spirit text-2xl">
+            <div>Big</div>
+            <div>General</div>
+        <div v-click="6">
+            <div class="txt-spirit">
+                <div>Small</div>
+                <div>Specific</div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
