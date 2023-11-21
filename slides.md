@@ -8,6 +8,7 @@ transition: slide-left
 title: A study of the Master
 routeAlias: home
 css: unocss
+canvasWidth: 980
 ---
 
 # Lesson 1: Intro to Reasoning
