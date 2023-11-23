@@ -30,10 +30,10 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class='grid grid-cols-[1fr_1fr_5px_1fr_1fr]'>
+  <div  bg-slate-300 class='grid grid-cols-[1fr_1fr_5px_1fr_1fr]'>
 
     <!--------------left------------------->
-    <div class='text-2xl' :class='props.class'>
+    <div class='text-2xl txt-carnal' :class='props.class'>
       <slot name='left' />
     </div>
 
@@ -53,7 +53,7 @@ const props = defineProps({
     </div>
 
     <!--------------right------------------->
-    <div class='text-2xl' :class='props.class'>
+    <div class='text-2xl txt-carnal' :class='props.class'>
       <slot name='right' />
     </div>
   </div>

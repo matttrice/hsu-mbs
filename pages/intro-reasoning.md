@@ -140,7 +140,6 @@ layout: default
 
 ---
 title: Methods of Reason
-background: bg-slate-300
 routeAlias: bible-reasoning
 layout: full
 ---
@@ -148,6 +147,9 @@ layout: full
 # Methods of Reason
   
 <div class="grid grid-cols-[1fr_1fr]">
+<div class="txt-carnal txt-4xl mx-auto">What method of reason is sbest if you don't know the complete picture?</div>
+
+<div class="txt-spirit txt-4xl mx-auto">How do you start a puzzle?</div>
     <div v-click="1" class="txt-carnal bg-carnal mbs-col-head txt-4xl mx-auto"> Inductive</div>
     <div v-click="2" class="txt-spirit bg-spirit mbs-col-head txt-4xl">Deductive</div> 
     <div class="grid grid-cols-[1fr_1fr]">
@@ -180,3 +182,4 @@ layout: full
         </div>
     </div>
 </div>
+

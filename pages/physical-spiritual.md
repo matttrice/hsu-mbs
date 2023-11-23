@@ -34,7 +34,7 @@ Genesis 1:1
     color="black" width="3"
     arrowSize="2" />
  
- <Link to="1Corinthians15:40-45" class="mbs-box" v-click="37">1 Corinthians<br/>15:40-45</Link>
+ <Link to="scrolls/1Corinthians15:40-45" class="mbs-box" v-click="37">1 Corinthians<br/>15:40-45</Link>
 
 ::spiritual::
 
@@ -51,7 +51,7 @@ Genesis 1:1
     Eternal
 </div>
 
-<div v-click="17" bg-slate-300>
+<div v-click="17" bg-white>
     <div v-click="24" class="mbs-col-head">
         Causes
     </div>
@@ -117,7 +117,7 @@ Genesis 1:1
     Temporal
 </div>
 
-<div v-click="17" bg-slate-300>
+<div v-click="17" bg-white>
     <div v-click="25" class="mbs-col-head">
         Effects
     </div>
