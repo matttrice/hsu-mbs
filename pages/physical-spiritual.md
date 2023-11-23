@@ -80,7 +80,7 @@ Genesis 1:1
 <div v-click="42" class="mbs-col-item -mt-1">2st Adam = Heaven</div>
 
 ::middle::
-<div bg-white w-5 ml="-2" h="7.5rem" mt="70" v-click="30" z-11 position="relative">
+<div bg-white w-5 ml="-2" h="7.5rem" mt="70" v-click="30" position="relative">
   <div v-click="30" 
       text="4xl" 
       color="black"
